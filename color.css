@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.root{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.color{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 10px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 15px 1px;
+}
+#red{
+    background-color: red;
+}
+#green{
+    background-color: green;
+}
+#blue{
+    background-color: blue;
+}
+#purple{
+    background-color: purple;
+}
